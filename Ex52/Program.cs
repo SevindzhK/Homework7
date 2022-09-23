@@ -45,4 +45,5 @@ void GetAverageOfColumn(int[,] array)
 
 CreateArray(array); 
 PrintArray(array);
+Console.WriteLine();
 GetAverageOfColumn(array);
