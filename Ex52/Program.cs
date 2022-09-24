@@ -39,7 +39,7 @@ void GetAverageOfColumn(int[,] array)
             sum += array[i,j];
         }
         average = sum / rows; 
-        Console.Write($"{average} ");
+        Console.Write($"{average: 0.00} ");
     }
 }
 
